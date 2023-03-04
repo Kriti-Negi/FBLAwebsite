@@ -1,0 +1,27 @@
+.card{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    background-color: #071A52;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.card > .card-image{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card > .card-title{
+    margin: 1;
+    margin-bottom: 0;
+    font-size: 1.2rem;
+}
+
+.card > .card-description{
+    margin-bottom: 1.5rem;
+}

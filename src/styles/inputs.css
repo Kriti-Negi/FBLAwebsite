@@ -1,0 +1,17 @@
+input, textarea{
+    background-color: #A0C6FF;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    padding: 15px 0px;
+    padding-left: 20px;
+    font-size: 1rem;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+textarea{
+    height: 100px;
+}
+

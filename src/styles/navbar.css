@@ -1,0 +1,19 @@
+.nav-styles{
+    background-color: #A0C6FF;
+    color: black;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-styles > .left-items{
+    display: flex;
+    font-weight: 500;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}

@@ -1,0 +1,35 @@
+.form {
+    padding: 40px 50px;
+    background-color: #071A52;
+    color: #fff;
+}
+
+.form > .form-inputs{
+    display: grid;
+    grid-gap: 15px;
+}
+
+.form > .form-inputs > .btn-container{}
+
+.form > .form-header{}
+
+.form-return{
+    background-color: #071A52;
+    padding: 130px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+    .form-return {
+        padding: 100px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .form-return {
+        padding: 40px;
+    }
+}

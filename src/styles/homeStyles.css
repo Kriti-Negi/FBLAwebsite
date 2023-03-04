@@ -1,0 +1,135 @@
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: 100;
+    font-size: 3rem;
+}
+
+
+.header-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #071A52;
+    color: #fff;
+    padding: 50px 30px;
+    margin: 0;
+}
+
+.header-banner > .left{
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-banner > .left > img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.header-banner > .right{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-banner > .right > .header-banner-title{
+    margin-bottom: 10px;
+}
+
+.header-banner > .right > .header-banner-subheading{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.hero-banner{
+    background-color: #A0C6FF;
+    margin: 0;
+    padding: 80px;
+}
+
+.hero-banner > .hero-banner-text{
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    padding-bottom: 30px;
+}
+
+.hero-banner > .hero-banner-text > h1{
+    margin: 1rem 0;
+}
+
+.hero-banner > .hero-banner-text > p{
+    line-height: 2rem;
+    margin: 0;
+}
+
+.hero-banner > .hero-banner-button{
+    margin:  auto;
+    text-align: center;
+}
+
+.gallery-banner{
+    background-color: #071A52;
+    padding: 30px 50px;
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gallery-banner > .left{
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.gallery-banner > .left > .gallery-text > h2{
+    margin: 1rem 0;
+}
+
+.gallery-banner > .left > .gallery-text > p{
+    margin: 0;
+}
+
+.gallery-banner > .left > .gallery-button{
+    padding-top: 30px;
+}
+
+.gallery-banner > .right{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.gallery-banner > .right > img{
+    max-height: 500px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .header-banner, .gallery-banner{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .gallery-banner > .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .gallery-banner > .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+    .header-banner > .right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
