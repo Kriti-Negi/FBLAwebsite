@@ -7,6 +7,15 @@
     justify-content: space-between;
 }
 
+.nav-styles > .right-items{
+    padding-left: 10px;
+}
+
+.nav-styles > .right-items >img{
+    width: 50px;
+    border-radius: 8px;
+}
+
 .nav-styles > .left-items{
     display: flex;
     font-weight: 500;

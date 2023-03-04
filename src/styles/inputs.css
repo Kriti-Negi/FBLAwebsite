@@ -11,6 +11,15 @@ input, textarea{
     width: 100%;
 }
 
+.opposite{
+    color: #071A52;
+    background-color: #ffffff;
+}
+
+.opposite::placeholder{
+    color: #071A52;
+}
+
 textarea{
     height: 100px;
 }

@@ -11,7 +11,16 @@
 
 .form > .form-inputs > .btn-container{}
 
-.form > .form-header{}
+.form > .form-header{
+    padding-bottom: 10px;
+}
+
+.form > .form-header > h2{
+    margin-bottom: 0;
+}
+.form > .form-header > p{
+    margin-top: 0;
+}
 
 .form-return{
     background-color: #071A52;

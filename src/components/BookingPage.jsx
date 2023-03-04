@@ -39,7 +39,11 @@ function BookingPage(){
         <div>
             <Navbar/>
             <div className='form' hidden={eventIsBooked}>
-                <h2 className='form-header'>Book an Event</h2>
+                <div className='form-header'>
+                    <h2>Book an Event</h2>
+                    <p>Typical cost is $30/hour</p>
+                </div>
+                
                 <div className = "form-inputs" hidden={eventIsBooked}>
                     <BasicInput
                         placeholderText = "Full Name"
