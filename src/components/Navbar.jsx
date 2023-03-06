@@ -7,10 +7,12 @@ function Navbar(){
     return (
         <nav className='nav-styles'>
             <div className='right-items'>
-                <img className = "logo" src = {logo} alt = "logo"></img>
+                <Link to = "/" className='logo-link'>
+                    <img className = "logo" src = {logo} alt = "logo"></img>
+                    <p className = "company-name">West Pine</p>
+                </Link>
             </div>
             <div className='left-items'>
-                <Link className = 'nav-link' to="/">Home</Link>
                 <Link className = 'nav-link' to="/shop">Gallery</Link>
                 <Link className = 'nav-link' to = "/booking">Booking Form</Link>
                 <Link className = 'nav-link' to = "/contactus">Contact Us</Link>
