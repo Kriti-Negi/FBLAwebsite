@@ -33,9 +33,8 @@ function Footer(){
                     <p className='footer-text'>Instagram: @westpinephotos</p>
                 </div>
             </div>
-            <p className='copyright'>@2023 westpinephotos by Sanskriti Negi and Tony Zheng</p>
+            <p className='copyright'>@2023 westpinephotos by Sanskriti Negi and Tony Zhang. Images from Pixabay. Descriptions from ChatGPT</p>
         </footer>
-        
     )
 }
 
